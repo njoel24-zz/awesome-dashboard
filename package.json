@@ -1,0 +1,21 @@
+{
+  "name": "AwesomeDashboard",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.html, *.css, *.js '  | webpack -w ",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  },
+  "author": "Cristiano Anselmi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "fuse-box": "^2.0.0",
+    "passport": "^0.3.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "yarn": "^0.24.5"
+  }
+}
