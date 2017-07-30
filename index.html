@@ -16,23 +16,24 @@
 
 		<div class="blocks webviews">
 	    	<div>
-	    		<label>(autosize=true, non-persistent)</label>
-			    <webview id="wv1" style="width:250px; height:200px;" autosize="true"
-			    	src="http://looptube.net/soundcloud"
+			    <webview id="wv1" style="width:330px; height:450px;" autosize="true"
+			    	src="http://looptube.net/soundcloud?cache=no"
 					partition="persist:partition1"></webview>
 	    	</div>
 	    	<div>
-	    		<label>(persistent at partition2)</label>
 			    <webview id="wv2" style="width:250px; height:200px;"
-			    	src="http://looptube.net/youtube"
-			    	partition="persist:partition2"></webview>
-	    		<div class="note">try signing in at google.com, reload the app and webview 3 should be signed too,because they both share the same persistance partition</div>
+			    	src="http://looptube.net/youtube/index.html?par1=2s"
+			    	></webview>
 	    	</div>
 	    	<div>
-	    		<label>(persistent at partition2)</label>
-			    <webview id="wv3" style="width:250px; height:200px;"
-			    	src="http://looptube.net:3000/"
+			    <webview id="wv3" style="width:478px; height:200px;"
+			    	src="http://looptube.net/maps?cache=no"
 			    	partition="persist:partition3"></webview>
+	    	</div>
+			<div>
+			    <webview id="wv4" style="width:250px; height:200px;"
+			    	src="http://looptube.net/newsreader?cache=no"
+			    	partition="persist:partition4"></webview>
 	    	</div>
 
     <script src="index.js"></script>
