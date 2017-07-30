@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Awesome Dashboard</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="section" style="display:none"><h2>Messages and events to/from webview #1</h2>
+		<textarea></textarea>
+	</div>
+
+	<div class="section"><h2>Awesome Dashboard</h2>
+		<div class="indicator"></div>
+
+		<div class="blocks webviews">
+	    	<div>
+			    <iframe id="wv1" style="width:330px; height:450px;" frameborder="0" autosize="true"
+			    	src="http://looptube.net/soundcloud?cache=no"
+					></iframe>
+	    	</div>
+	    	<div>
+			    <iframe id="wv2" style="width:250px; height:200px;" frameborder="0"
+			    	src="http://looptube.net/youtube/index.html?par1=2s"
+			    	></iframe>
+	    	</div>
+	    	<div>
+			    <iframe id="wv3" style="width:478px; height:200px;" frameborder="0"
+			    	src="http://looptube.net/maps?cache=no"
+			    	partition="persist:partition3"></iframe>
+	    	</div>
+			<div>
+			    <iframe id="wv4" style="width:250px; height:200px;" frameborder="0"
+			    	src="http://looptube.net/newsreader?cache=no"
+			    	partition="persist:partition4"></iframe>
+	    	</div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
