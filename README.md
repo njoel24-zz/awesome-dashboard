@@ -2,8 +2,7 @@
 
 This is a webextension for Chrome that acts as a Dashboard containing:
 - SoundCloud search/play widget
-    github repo: https://github.com/njoel24/angular4-soundcloud
-    
+    github repo: https://github.com/njoel24/angular4-soundcloud    
     desc: I forked a project in angular2, I transalted it in angular4, added IndexedDB support (not ready yet) and a general refactor
 - Youtube search/play widget
     github repo: https://github.com/njoel24/one-source-of-truth-for-angular
