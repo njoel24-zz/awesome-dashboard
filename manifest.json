@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Webview Sample",
-  "version": "2.1",
+  "name": "Awesome Dashboard",
+  "version": "1.0",
   "permissions": ["webview", "pointerLock", "geolocation", "videoCapture", "tabs"],
   "app": {
     "background": {
